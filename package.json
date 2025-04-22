@@ -1,0 +1,22 @@
+{
+  "name": "pedals-up-parcel",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir dist --public-url ./ --no-cache && node postbuild.js"
+  },
+  "dependencies": {
+    "appwrite": "^17.0.1",
+    "ethers": "^6.13.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
